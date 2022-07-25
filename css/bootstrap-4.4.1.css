@@ -43,6 +43,16 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+
+  h1 {
+
+    font-size: 58px !important;
+    line-height: 62px !important;
+  }
+  .col-md-6 { text-align: center;}
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -115,7 +125,8 @@ max-height: 500px;
 	width: 100%;
 	height: 100%;
 	background-image: url("../img/bg.png");
-	background-position: center;
+	background-position: top center;
+
 }
 
 .heroThree {
@@ -6890,7 +6901,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #141D28 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
