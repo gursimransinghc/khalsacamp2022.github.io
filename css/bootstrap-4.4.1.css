@@ -51,7 +51,9 @@
     line-height: 62px !important;
   }
   .col-md-6 { text-align: center;}
-}
+  .btn {width: 100%;}
+  .signUpNav {padding-top:16px;padding-right: 0px !important; text-align: center !important;}
+  }
 
 html {
   font-family: sans-serif;
@@ -80,8 +82,9 @@ padding-top: 150px;
 
 }
 .signUpNav {
-margin-right: 28px;
+padding-right: 28px;
 text-align: right;
+
 
 }
 .logo {
@@ -4794,12 +4797,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+  
+  border-color: none;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("../img/burgerMenu.svg");
 }
 
 .navbar-light .navbar-text {
@@ -4842,12 +4845,13 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+  border-color:none;
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  color: #fff;
+  background-image: url("../img/burgerMenu.svg") !important;
 }
 
 .navbar-dark .navbar-text {
